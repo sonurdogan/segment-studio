@@ -1,0 +1,15 @@
+[project]
+name = "mod-design"
+version = "0.1.0"
+description = "Interactive image segmentation using SAM3 (Segment Anything Model 3)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "ultralytics>=8.4.14",
+    "opencv-python>=4.10.0",
+    "numpy>=1.26.0",
+    "pillow>=10.0.0",
+    "pydantic>=2.0.0",
+]

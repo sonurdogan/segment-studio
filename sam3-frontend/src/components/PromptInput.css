@@ -1,0 +1,122 @@
+.prompt-input-container {
+    width: 100%;
+}
+
+.text-prompt-section {
+    animation: fadeIn 0.3s ease;
+}
+
+.input-hint {
+    margin-top: var(--spacing-xs);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.box-prompt-section {
+    animation: fadeIn 0.3s ease;
+}
+
+.box-label {
+    margin-bottom: var(--spacing-md);
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.box-inputs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.input-group label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.point-prompt-section {
+    animation: fadeIn 0.3s ease;
+}
+
+.point-instructions {
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.instruction-text {
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.point-legend {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.point-indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+}
+
+.point-indicator.positive {
+    background: #10b981;
+}
+
+.point-indicator.negative {
+    background: #ef4444;
+}
+
+.box-prompt-section {
+    animation: fadeIn 0.3s ease;
+}
+
+.box-instructions {
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.box-legend {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.box-indicator {
+    width: 20px;
+    height: 16px;
+    border: 2px solid #6366f1;
+    background: rgba(99, 102, 241, 0.2);
+    display: inline-block;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .box-inputs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
